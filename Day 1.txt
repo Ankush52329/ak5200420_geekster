@@ -1,0 +1,129 @@
+//1)print "Hello i am enjoying coding.
+      import java.io.*;
+      import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args) {
+        System.out.println("Hello I am enjoying coding");
+    }
+}
+
+
+//2)print
+        Hello
+          I
+          am
+          enjoying
+          coding
+
+ import java.io.*;
+ import java.util.*;
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("enjoying");
+        System.out.println("coding");
+
+//3)Find the sum, product of 100,8,3
+import java.io.*;
+import java.util.*;
+public class Sum {
+    public static void main(String[] args) {
+        int n1=100,n2=8,n3=3,sum;
+       
+        sum=n1+n2+n3;
+       System.out.println(sum);
+       }
+     }
+
+
+//4) Find the difference between 100 and 40.
+import java.io.*;
+import java.util.*;
+public class Sub {
+    public static void main(String[] args) {
+        int x=100,y=40;
+       
+       System.out.println(x-y);
+    }
+}
+ 
+
+//5) Print the below pattern//
+*****
+*****
+*****
+*****
+*****
+*****
+
+import java.io.*;
+import java.util.*;
+public class Sub {
+    public static void main(String[] args) {
+       
+       System.out.println("*****");
+       System.out.println("*****");
+       System.out.println("*****");
+       System.out.println("*****");
+       System.out.println("*****");
+       System.out.println("*****");
+    }
+}
+       
+  
+//6) Print the below pattern//
+* *
+* *
+* *
+* *
+* *
+****
+
+import java.io.*;
+import java.util.*;
+    public class Sub {
+    public static void main(String[] args) {
+       
+       System.out.println("* *");
+       System.out.println("* *");
+       System.out.println("* *");
+       System.out.println("* *");
+       System.out.println("* *");
+       System.out.println("****");
+    }
+}
+  
+   
+   
+//7) Find the last digit of the number 987653.//
+import java.io.*;
+import java.util.*;
+  public class Sub {
+    public static void main(String[] args) {
+        int num=987653;
+       
+       System.out.println(num%10);
+    }
+   }
+ 
+//8) Store values 15, 4 in m and n variable of int data type then
+Print value of m+n in the first line,
+Print value of m-n in the second line,
+Print value of m*n in the second line.
+
+import java.io.*;
+import java.util.*;
+ public class Sub {
+    public static void main(String[] args) {
+        int m=15,n=4;
+       
+       System.out.println(m+n);
+       System.out.println(m-n);
+       System.out.println(m*n);
+    }
+   }
+ 

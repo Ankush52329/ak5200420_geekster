@@ -1,0 +1,204 @@
+//1) Take the diameter of a circle as input. Print the area of the circle as integer input.
+      
+ import java.io.*;
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+         Scanner s = new Scanner(System.in);
+        int rad = s.nextInt();
+         Double Area = Math.PI * rad * rad;
+         System.out.println(Area );     
+    }
+
+}
+
+/*2) Take the base and height of a triangle as input and store them in double variables x
+and y and print its area.*/
+
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int b=sc.nextInt();
+	    int h=sc.nextInt();
+	    double x=b;
+	    double y=h;
+	    double area=((x*y)/2);
+	    
+		System.out.println(area);
+	}
+}
+
+/*3) Take an input x, check if it is greater than 1000 or not. Print true or false.*/
+
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int x=sc.nextInt();
+	    if(x>1000)
+	        System.out.println("true");
+	   else
+	       System.out.println("false");
+	}
+}
+
+/*4) For 3rd and 4th Question. Attempt the Quiz
+https://forms.gle/bJCRD9hTR3PzZ4uN6*/
+Done
+
+/*5) Find the answer of the following expressions
+a. Int x = 7+3+4
+b. Int x = 12 + 5 + 8
+c. Int x= 13/5 + 18/8
+d. double x= 12 + 5.0 + 2.76
+e. double x= 12/3 + 13/2
+f. double x=12/3 + 13.0/2
+g. double x=14/2 + 15.0/4
+h. double x= 13/2 % 5/3
+i. double x= 17.0/2 % 16.0/4 */
+
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	     //int x = 7+3+4;
+	     //int x = 12 + 5 + 8;
+	     //int x= 13/5 + 18/8;
+	     //double x= 12 + 5.0 + 2.76;
+	     //double x= 12/3 + 13/2;
+	     //double x=12/3 + 13.0/2;
+	     //double x=14/2 + 15.0/4;
+	     //double x= 13/2 % 5/3;
+	      double x= 17.0/2 % 16.0/4;
+	     System.out.print(x);
+    }
+}
+
+
+/*6) Store these expressions inside a Boolean variable ans. Print their outputs true or
+false accordingly
+a. boolean ans = 3 > 2
+b. boolean ans = 3 ≥ 3
+c. boolean ans = 4 + 3 > 9
+d. boolean ans = 10 + 8 > 10
+e. boolean ans = 12 != 10
+f. boolean ans = 13 == 13
+g. boolean ans = 14 != 14
+h. boolean ans = 20 == 5*4
+i. boolean ans = 30 != 3+4-10
+j. boolean ans = 20 == 41/2 */
+
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	     //boolean ans = 3 > 2;
+	     //boolean ans = 3>= 3;
+         //boolean ans = 4 + 3 > 9;
+         //boolean ans = 10 + 8 > 10;
+         //boolean ans = 12 != 10;
+         //boolean ans = 13 == 13;
+         //boolean ans = 14 != 14;
+         //boolean ans = 20 == 5*4;
+         //boolean ans = 30 != 3+4-10;
+         boolean ans = 20 == 41/2;
+
+	     System.out.print(ans);
+    }
+}
+
+
+/*7) Take marks of a student in five subjects as input in a double variable. Print the sum
+of total marks and also find the percentage of the student.*/
+
+
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner sc=new Scanner(System.in);
+	   double a=sc.nextDouble();
+	   double b=sc.nextDouble();
+	   double c=sc.nextDouble();
+	   double d=sc.nextDouble();
+	   double e=sc.nextDouble();
+	   
+       double sum=a+b+c+d+e;
+       System.out.println(sum);
+       double percentage=(sum*100)/500;
+        System.out.println(percentage);
+       
+    }
+}
+
+/*8) Take four integer inputs and check if the product of them is greater than 1000 or
+not. Print true or false accordingly.*/
+
+import java.io.*;
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner (System.in);
+	    int a= sc.nextInt();
+	    int b= sc.nextInt();
+	    int c= sc.nextInt();
+	    int d= sc.nextInt();
+	    int x=a*b*c*d;
+	    if(x>1000)
+	       System.out.println("true");
+	     else  
+	    	System.out.println("false");
+	}
+}
+
+
+/*9) Take an integer input and check if the number is divisible by 7 or not.*/
+
+import java.io.*;
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner (System.in);
+	    int a= sc.nextInt();
+	    
+	    if(a%7==0)
+	       System.out.println("divisible by 7 ");
+	     else  
+	    	System.out.println("not divisible by 7 ");
+	}
+}
+
+/*10) Attempt the Quiz
+https://forms.gle/bJCRD9hTR3PzZ4uN6 */
+Done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
